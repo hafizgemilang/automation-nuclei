@@ -1,5 +1,5 @@
 #!/bin/bash
-program=pornhub
+program=$1
 mkdir -p "$program"
 
 cat domainsBOUNTY | grep $program > $program/domain.txtls 
